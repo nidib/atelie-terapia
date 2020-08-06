@@ -1,0 +1,32 @@
+.page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-cream);
+  background-image: url("/pattern.png");
+  background-size: 210%;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  & > h1 {
+    color: var(--color-sky-darker);
+    text-shadow: 1px 1px 0 rgba(black, .14);
+    text-align: center;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 700;
+    padding: 60px 0 60px 0;
+  }
+
+  & > a {
+    color: var(--color-sky-darker);
+    background-color: var(--color-sky);
+    text-decoration: none;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 2px rgba(black, .13);
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 14px;
+  }
+}
