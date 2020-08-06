@@ -1,0 +1,17 @@
+button.hamburger {
+  align-self: center;
+  padding: 5px 15px;
+  border-color: var(--color-sky);
+  color: var(--color-sky-darker);
+  background-color: var(--color-sky);
+  box-shadow: 1px 1px 2px rgba(black, .13);
+  font-size: 14px;
+  z-index: 4;
+  font-weight: 700;
+}
+
+@media (min-width: 680px) {
+  button.hamburger {
+    display: none;
+  }
+}
