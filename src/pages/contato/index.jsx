@@ -1,12 +1,12 @@
 import React from 'react';
-import Helmet from 'react-helmet';
 
+import Seo from '../../components/Seo';
 import PageTitle from '../../components/PageTitle';
 
 const Contact = () => {
   return (
     <>
-      <Helmet title="Ateliê Terapia | Contato" />
+      <Seo title="Ateliê Terapia | Contato" />
       <PageTitle title="Entre em Contato" />
     </>
   );
