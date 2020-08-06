@@ -1,0 +1,30 @@
+:root {
+  font-family: serif;
+  font-weight: normal;
+
+  --color-black: #313131;
+  --color-white: #fff;
+  --color-cream: #F8F6EE;
+  --color-sky: #C5E1E5;
+  --color-sky-dark: #728F93;
+  --color-sky-darker: #556D71;
+  --color-purple: #8B769E;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  width: 85vw;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@keyframes toVisible {
+  to {
+    opacity: initial;
+  }
+}
