@@ -23,6 +23,12 @@ body {
   margin: 0 auto;
 }
 
+a {
+  &:hover, &.active {
+    text-decoration: underline;
+  }  
+}
+
 @keyframes toVisible {
   to {
     opacity: initial;
