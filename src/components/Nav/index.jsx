@@ -21,7 +21,10 @@ const Nav = ({ navActive }) => {
           <Link to="/contato" activeClassName="active">Contato</Link>
         </li>
         <li>
-          <a href="https://google.com">Loja</a>
+          <a href="http://atelieterapia.com.br/">Arteterapia</a>
+        </li>
+        <li>
+          <a href="#">Loja (Em breve)</a>
         </li>
       </ul>
     </nav>
