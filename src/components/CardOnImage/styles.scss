@@ -3,6 +3,10 @@
   max-width: 600px;
   margin: 0 auto;
 
+  &:not(:last-of-type) {
+    margin-bottom: 40px;
+  }
+
   .image {
     height: 300px;
     background-size: cover;
@@ -10,8 +14,15 @@
     background-repeat: no-repeat;
   }
 
-  .card {
+  &:nth-of-type(odd) .card {
     background-color: var(--color-sky);
+  }
+
+  &:nth-of-type(even) .card {
+    background-color: var(--color-cream);
+  }
+
+  .card {
     color: var(--color-sky-darker);
     width: 85vw;
     margin: 0 auto;
