@@ -9,6 +9,12 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'pt-br',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-page-creator',
       options: {
         path: `${__dirname}/src/pages`,
