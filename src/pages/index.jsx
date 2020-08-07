@@ -5,6 +5,9 @@ import Seo from '../components/Seo';
 import PageTitle from '../components/PageTitle';
 import Quote from '../components/Quote';
 import CardOnImage from '../components/CardOnImage';
+import Footer from '../components/Footer';
+
+import './index.scss';
 
 const Home = () => {
   return (
@@ -38,7 +41,32 @@ const Home = () => {
             <Link to="/contato">Reservar</Link>
           </CardOnImage>
         </section>
+        <section id="tipos-de-atendimento">
+          <h2>Tipos de Atendimento</h2>
+          <ul>
+            <li>
+              Atendimento online em época de pandemia
+            </li>
+            <li>
+              Atendimento à todas as idades
+            </li>
+            <li>
+              Atendimento à crianças com dificuldades de aprendizagem
+            </li>
+            <li>
+              Atendimentos individuais e grupos terapêuticos (Arteterapia)
+            </li>
+            <li>
+              Atendimento domiciliar à aqueles que estão impossibilitados por
+              limitações físicas ou clínicas
+            </li>
+            <li>
+              Diagnósticos e Intervenções das dificuldades de aprendizagem
+            </li>
+          </ul>
+        </section>
       </main>
+      <Footer />
     </>
   );
 };
