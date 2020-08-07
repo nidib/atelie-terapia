@@ -1,0 +1,36 @@
+section#tipos-de-atendimento {
+  padding: 40px 0;
+  text-align: center;
+  color: var(--color-sky-darker);
+
+  h2 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  ul {
+    max-width: 200px;
+    margin: 0 auto;
+
+    li {
+      font-size: 16px;
+      line-height: 22px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 80%;
+
+      &:nth-of-type(even) {
+        background-image: url("/lines.svg");
+      }
+
+      &:nth-of-type(odd) {
+        background-image: url("/lines-purple.svg");
+      }
+      
+      &:not(:last-of-type) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
