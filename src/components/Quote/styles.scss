@@ -1,0 +1,28 @@
+.quote {
+  text-align: center;
+  padding: 30px;
+  color: var(--color-sky-darker);
+
+  &::before, &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    background-color: var(--color-sky);
+  }
+
+  &::before {
+    width: 100px;
+  }
+
+  &::after {
+    width: 60px;
+    background-color: var(--color-sky);
+  }
+
+  p {
+    padding: 15px 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
