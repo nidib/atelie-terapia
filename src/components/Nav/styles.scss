@@ -1,4 +1,4 @@
-nav {
+ nav {
   position: absolute;
   display: none;
   top: 100%;
@@ -36,8 +36,11 @@ nav {
         text-align: center;
         padding: 15px 25px;
 
-        &:hover, &.active {
-          text-decoration: underline;
+        &.disabled {
+          &:hover {
+            text-decoration: none;
+          }
+          cursor: not-allowed;
         }
       }
     }
