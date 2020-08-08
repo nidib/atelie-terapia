@@ -1,13 +1,10 @@
 import React from 'react';
 
-import Seo from '../../components/Seo';
+import Redirect from '../../components/Redirect';
 
 const Success = () => {
   return (
-    <>
-      <Seo title="Ateliê Terapia | Formulário enviado" />
-      <p>Formulário enviado!</p>
-    </>
+    <Redirect seoTitle="Mensagem enviada!" message="Sua mensagem foi enviada! Entrarei em contato assim que possível" countFrom={7} />
   );
 };
 
