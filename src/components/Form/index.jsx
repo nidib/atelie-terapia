@@ -42,7 +42,6 @@ const Form = () => {
   }
 
   function handleSubmit(e) {
-    e.preventDefault();
     if (checkFields()) {
       setLoading(true);
       setTimeout(() => {
@@ -50,6 +49,7 @@ const Form = () => {
         setReadyToSend(true);
       }, 3000);
     } else {
+      e.preventDefault();
       setErrorMessage(true);
     }
   }
@@ -70,7 +70,7 @@ const Form = () => {
   }
 
   return (
-    <form name="contact" className="container" onSubmit={handleSubmit} noValidate data-netlify="true">
+    <form method="POST" name="contact" className="container" onSubmit={handleSubmit} noValidate data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <fieldset>
         <legend>Nome:</legend>
