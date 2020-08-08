@@ -7,9 +7,6 @@ const Form = () => {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(false);
-  const [readyToSend, setReadyToSend] = useState(false);
 
   function handleNameChange({ target }) {
     setName(target.value);
@@ -42,51 +39,33 @@ const Form = () => {
   }
 
   function handleSubmit(e) {
-    // if (checkFields()) {
-    //   setLoading(true);
-    //   setTimeout(() => {
-    //     setLoading(false);
-    //     setReadyToSend(true);
-    //   }, 3000);
-    // } else {
-    //   e.preventDefault();
-    //   setErrorMessage(true);
-    // }
+    if (!checkFields()) {
+      e.preventDefault();
+    }
   }
 
   function handleBlur({ target }) {
     checkField(target);
   }
 
-  if (loading) return <p style={{ textAlign: 'center' }}>Enviando...</p>;
-  if (readyToSend) {
-    return (
-      <p style={{ textAlign: 'center', lineHeight: '22px' }}>
-        Obrigado!
-        <br />
-        Entraremos em contato o quanto antes!
-      </p>
-    );
-  }
-
   return (
-    <form method="POST" name="contact" className="container" onSubmit={handleSubmit} noValidate data-netlify="true">
+    <form method="POST" action="/success" name="contact" className="container" onSubmit={handleSubmit} data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <fieldset>
         <legend>Nome:</legend>
         <label htmlFor="name">
-          <input type="text" id="name" name="name" value={name} onChange={handleNameChange} onBlur={handleBlur} />
+          <input type="text" id="name" name="name" value={name} onChange={handleNameChange} onBlur={handleBlur} required />
         </label>
       </fieldset>
       <fieldset>
         <legend>Email:</legend>
         <label htmlFor="email">
-          <input type="email" id="email" name="email" value={email} onChange={handleEmailChange} onBlur={handleBlur} />
+          <input type="email" id="email" name="email" value={email} onChange={handleEmailChange} onBlur={handleBlur} required />
         </label>
       </fieldset>
       <fieldset>
         <legend>Assunto:</legend>
-        <select id="subject" name="subject" defaultValue="" onChange={handleSubjectChange} onBlur={handleBlur}>
+        <select id="subject" name="subject" defaultValue="" onChange={handleSubjectChange} onBlur={handleBlur} required >
           <option value="" disabled>Selecione um atendimento</option>
           <option value="a">a</option>
           <option value="b">b</option>
@@ -97,12 +76,9 @@ const Form = () => {
       <fieldset>
         <legend>Mensagem:</legend>
         <label htmlFor="message">
-          <textarea id="message" name="message" onChange={handleMessageChange} onBlur={handleBlur} />
+          <textarea id="message" name="message" onChange={handleMessageChange} onBlur={handleBlur} required />
         </label>
       </fieldset>
-      {
-        errorMessage && <p className="error-message">Preêncha todos os campos</p>
-      }
       <button type="submit">Enviar</button>
     </form>
   );
