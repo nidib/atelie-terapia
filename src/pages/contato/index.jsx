@@ -4,6 +4,7 @@ import Seo from '../../components/Seo';
 import PageTitle from '../../components/PageTitle';
 import Quote from '../../components/Quote';
 import Map from '../../components/Map';
+import Form from '../../components/Form';
 import Footer from '../../components/Footer';
 
 import './styles.scss';
@@ -49,35 +50,7 @@ const Contact = () => {
         </section>
         <section id="entre-em-contato">
           <h2>Entre em Contato</h2>
-          <form className="container">
-            <fieldset>
-              <legend>Nome:</legend>
-              <label htmlFor="name">
-                <input type="text" id="name" required />
-              </label>
-            </fieldset>
-            <fieldset>
-              <legend>Email:</legend>
-              <label htmlFor="email">
-                <input type="email" id="email" required />
-              </label>
-            </fieldset>
-            <fieldset>
-              <legend>Assunto:</legend>
-              <select id="subject" required defaultValue="">
-                <option value="" disabled>Selecione um atendimento</option>
-                <option value="b">b</option>
-                <option value="c">c</option>
-              </select>
-            </fieldset>
-            <fieldset>
-              <legend>Mensagem:</legend>
-              <label htmlFor="message">
-                <textarea id="message" required />
-              </label>
-            </fieldset>
-            <button type="submit">Enviar</button>
-          </form>
+          <Form />
         </section>
       </main>
       <Footer />
