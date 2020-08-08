@@ -21,10 +21,17 @@
   }
 
   p {
-    padding: 15px 0;
     font-size: 14px;
     line-height: 22px;
     max-width: 500px;
     margin: 0 auto;
+
+    &:first-of-type {
+      padding: 15px 0;
+    }
+
+    &.owner {
+      padding-bottom: 15px;
+    }
   }
 }

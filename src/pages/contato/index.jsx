@@ -16,7 +16,7 @@ const Contact = () => {
       <PageTitle title="Entre em Contato" />
       <main>
         <section id="quote">
-          <Quote text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis saepe suscipit deleniti autem odio, illo, doloribus laboriosam dicta reiciendis possimus. Esse similique quas rerum. Vel veniam explicabo nulla quas similique." />
+          <Quote text="O verdadeiro sinal de inteligência não é o conhecimento, e sim a imaginação." owner="Albert Einsten" />
         </section>
         <section id="where-to-find-us">
           <div className="location">

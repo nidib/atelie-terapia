@@ -16,7 +16,7 @@ const Services = () => {
       <PageTitle title="Minhas Especialidades" />
       <main>
         <section id="quote">
-          <Quote text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi voluptatibus fugit vero culpa delectus natus maiores expedita non qui iure placeat quas atque, et nisi corporis rerum deleniti ut magni!" />
+          <Quote text="A criatividade permite a expressão dos sujeitos e traz informações do passado para o presente." owner="Andréa Bidin" />
         </section>
         <section id="services">
           <CardOnImage imgSrc="/kid-drawing.jpg" title="Crianças">

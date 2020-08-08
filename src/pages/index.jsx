@@ -16,7 +16,7 @@ const Home = () => {
       <PageTitle title="Atendimento arteterapêutico, psicopedagógico e neuropsicopedagógico" />
       <main>
         <section id="quote">
-          <Quote text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, tempore. Doloremque ut pariatur fugit voluptate neque harum nesciunt minima est earum sapiente, quaerat sequi atque nobis magnam, ducimus quis tenetur!" />
+          <Quote text="O processo terapêutico utiliza a arte e as diferentes maneiras de expressões artísticas buscando uma maneira mais prazerosa de conseguir novas descobertas e criar novas possibilidades." owner="Andréa Bidin" />
         </section>
         <section id="atendimento-psicopedagogico">
           <CardOnImage imgSrc="/playroom.jpg" title="Atendimento Psicopedagógico">
