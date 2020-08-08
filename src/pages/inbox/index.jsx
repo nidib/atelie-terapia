@@ -10,7 +10,7 @@ async function fetchData(url) {
   return data;
 }
 
-const Mails = () => {
+const Inbox = () => {
   const windowGlobal = typeof window !== 'undefined' && window;
   const [emails, setEmails] = useState([]);
   const [input, setInput] = useState(() => {
@@ -106,4 +106,4 @@ const Mails = () => {
   );
 };
 
-export default Mails;
+export default Inbox;
