@@ -13,7 +13,7 @@ async function fetchData(url) {
 
 const Mails = () => {
   const [emails, setEmails] = useState([]);
-  const [input, setInput] = useState(() => window.localStorage.getItem('key') || '');
+  const [input, setInput] = useState(() => localStorage.getItem('key') || '');
   const [error, setError] = useState(false);
 
   async function setData() {
