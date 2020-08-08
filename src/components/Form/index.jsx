@@ -67,10 +67,10 @@ const Form = () => {
         <legend>Assunto:</legend>
         <select id="subject" name="subject" defaultValue="" onChange={handleSubjectChange} onBlur={handleBlur} required >
           <option value="" disabled>Selecione um atendimento</option>
-          <option value="a">a</option>
-          <option value="b">b</option>
-          <option value="c">c</option>
-          <option value="d">d</option>
+          <option value="criancas">Atendimento à crianças</option>
+          <option value="idosos">Atendimento à idosos</option>
+          <option value="especiais">Atendimento à pessoas com deficiências</option>
+          <option value="outro">Outro</option>
         </select>
       </fieldset>
       <fieldset>
