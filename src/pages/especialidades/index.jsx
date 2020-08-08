@@ -47,7 +47,7 @@ const Services = () => {
             </div>
             <Link to="/contato">Reservar</Link>
           </CardOnImage>
-          <CardOnImage imgSrc="/candies.jpeg" title="Atendimento à crianças com deficiências">
+          <CardOnImage imgSrc="/candies.jpeg" title="Atendimento à pessoas com deficiências">
             <div className="text">
               <p>
                 Facilita muito o aprendizado das crianças com deficiências se trabalhamos com

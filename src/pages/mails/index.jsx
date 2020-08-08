@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import './styles.scss';
 
 const baseUrl = 'https://api.netlify.com/api/v1/forms/5f2e0c796ff2e70008ec089b/submissions?access_token=';
-// 5bccd293630a15aea4783d068758bd6364afc489022bc81f8ab8e42f501e63ec
 
 async function fetchData(url) {
   const response = await fetch(url);
@@ -58,7 +57,7 @@ const Mails = () => {
   return (
     <div id="page-mails" className="container">
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="API key" value={input} onChange={handleInputChange} />
+        <input type="password" placeholder="Senha" value={input} onChange={handleInputChange} />
         <button type="submit">Acessar inbox</button>
       </form>
 
@@ -89,7 +88,7 @@ const Mails = () => {
                       <a href={`mailto:${email.data.email}`}>{email.data.email}</a>
                     </div>
                     <div className="subject">
-                      <span>Assunto: </span>
+                      <span>Assunto: #</span>
                       {email.data.subject}
                     </div>
                     <div className="message">
