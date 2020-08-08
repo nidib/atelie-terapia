@@ -15,7 +15,7 @@ const About = () => {
       <PageTitle title="Um Pouco Sobre Mim" />
       <main>
         <section id="quote">
-          <Quote text="O que tentamos encontrar é a relação particular do sujeito com o conhecimento e o significado do aprender." owner="Alicia Fernández" />
+          <Quote text="A criatividade permite a expressão dos sujeitos e traz informações do passado para o presente." owner="Andréa Bidin" />
         </section>
         <section id="about-me">
           <CardOnImage imgSrc="/andrea.jpg" title="Oi, me chamo Andréa">

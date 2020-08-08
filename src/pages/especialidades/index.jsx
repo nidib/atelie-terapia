@@ -16,7 +16,7 @@ const Services = () => {
       <PageTitle title="Minhas Especialidades" />
       <main>
         <section id="quote">
-          <Quote text="A criatividade permite a expressão dos sujeitos e traz informações do passado para o presente." owner="Andréa Bidin" />
+          <Quote text="O que tentamos encontrar é a relação particular do sujeito com o conhecimento e o significado do aprender." owner="Alicia Fernández" />
         </section>
         <section id="services">
           <CardOnImage imgSrc="/kid-drawing.jpg" title="Crianças">
