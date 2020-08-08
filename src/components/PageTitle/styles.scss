@@ -31,3 +31,64 @@
     font-size: 14px;
   }
 }
+
+@media (min-width: 430px) {
+  .page-title {
+    background-size: 170%;
+    & > h1 {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+}
+
+@media (min-width: 570px) {
+  .page-title {
+    background-size: 140%;
+    & > h1 {
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .page-title {
+    background-size: cover;
+    & > h1 {
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-title {
+    & > h1 {
+      font-size: 38px;
+      line-height: 60px;
+    }
+
+    & > a {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .page-title {
+    & > h1 {
+      padding-top: 320px;
+      padding-bottom: 320px;
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  .page-title {
+    & > h1 {
+      padding-top: 360px;
+      padding-bottom: 360px;
+    }
+  }
+}

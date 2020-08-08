@@ -44,7 +44,7 @@ const Contact = () => {
             <p>
               E-mail:
               {' '}
-              <a href="mailto:artesbidin@gmail.com">artesbidin@gmail.com</a>
+              <a href="mailto:atendimentoatelieterapia@gmail.com">atelieterapiaandreabidin@gmail.com</a>
             </p>
           </div>
         </section>

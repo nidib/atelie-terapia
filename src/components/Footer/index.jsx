@@ -33,15 +33,27 @@ const Footer = () => {
           <li className="contact-info">
             <h3>Informações para Contato</h3>
             <ul>
-              <li>Email: email@email.com</li>
-              <li>Celular / Whatsapp: [11] 9 8185-5338</li>
+              <li>
+                Email:&nbsp;
+                <a href="mailto:atendimentoatelieterapia@gmail.com">atendimentoatelieterapia@gmail.com</a>
+              </li>
+              <li>
+                Whatsapp:&nbsp;
+                <a href="https://wa.me/5511981855338">[11] 9 8185-5338</a>
+              </li>
             </ul>
           </li>
           <li className="social-medias">
             <h3>Redes Sociais</h3>
             <ul>
-              <li>Facebook: @paginadoface</li>
-              <li>Instagram: @paginadoinsta</li>
+              <li>
+                Facebook:&nbsp;
+                <a href="https://www.facebook.com/Atelieterapiaandreabidin/">@atelieterapiaandreabidin</a>
+              </li>
+              <li>
+                Instagram:&nbsp;
+                <a href="https://www.instagram.com/atelieterapiaandreabidin/">@atelieterapiaandreabidin</a>
+              </li>
             </ul>
           </li>
         </ul>

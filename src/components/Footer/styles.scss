@@ -70,3 +70,36 @@ footer {
     }
   }
 }
+
+@media (min-width: 560px) {
+  footer {
+    div > ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: 'site-map contact-info' 'site-map social-medias';
+
+      li.site-map {
+        grid-area: site-map;
+      }
+
+      li.contact-info {
+        grid-area: contact-info;
+      }
+
+      li.social-medias {
+        grid-area: social-medias;
+      }
+    }
+  }
+}
+
+@media (min-width: 920px) {
+  footer {
+    div > ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}

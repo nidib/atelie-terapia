@@ -27,9 +27,9 @@ const Form = () => {
   function checkField(field) {
     const fieldElmnt = field;
     if (!field.value) {
-      fieldElmnt.className = 'red';
+      console.log(fieldElmnt.closest('fieldset').className = 'red');
     } else {
-      fieldElmnt.className = '';
+      console.log(fieldElmnt.closest('fieldset').className = '');
     }
   }
 

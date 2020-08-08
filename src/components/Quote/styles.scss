@@ -1,6 +1,6 @@
 .quote {
   text-align: center;
-  padding: 60px 30px;
+  padding: 40px 30px;
   color: var(--color-sky-darker);
 
   &::before, &::after {
@@ -32,6 +32,15 @@
 
     &.owner {
       padding-bottom: 15px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .quote {
+    p {
+      font-size: 18px;
+      line-height: 30px;
     }
   }
 }

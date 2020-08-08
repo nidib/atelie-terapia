@@ -10,7 +10,7 @@ const CardOnImage = ({
 }) => {
   return (
     <div className="card-on-image">
-      <div className="image" style={{ backgroundImage: `url(${imgSrc})` }} />
+      <img src={imgSrc} alt="Area de tarefas" />
       <div className="card">
         <h2>{title}</h2>
         {children}

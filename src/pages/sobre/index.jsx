@@ -37,7 +37,7 @@ const About = () => {
                 conhecer nosso espaço. Atendimento domiciliar ou online.
               </p>
             </div>
-            <a href="https://wa.me/5511981855338">Me chame no Whatsapp</a>
+            <a href="https://wa.me/5511981855338">Me mande um Whatsapp</a>
           </CardOnImage>
         </section>
       </main>
