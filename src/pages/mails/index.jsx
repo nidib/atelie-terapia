@@ -12,8 +12,9 @@ async function fetchData(url) {
 }
 
 const Mails = () => {
+  const windowGlobal = typeof window !== 'undefined' && window;
   const [emails, setEmails] = useState([]);
-  const [input, setInput] = useState(() => localStorage.getItem('key') || '');
+  const [input, setInput] = useState(() => windowGlobal.localStorage.getItem('key') || '');
   const [error, setError] = useState(false);
 
   async function setData() {
