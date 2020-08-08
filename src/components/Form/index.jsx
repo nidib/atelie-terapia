@@ -49,7 +49,7 @@ const Form = () => {
   }
 
   return (
-    <form method="POST" action="/success" name="contact" className="container" onSubmit={handleSubmit} data-netlify="true">
+    <form method="POST" action="/success" name="contact" className="container" onSubmit={handleSubmit} data-netlify="true" id="contact-form">
       <input type="hidden" name="form-name" value="contact" />
       <fieldset>
         <legend>Nome:</legend>
