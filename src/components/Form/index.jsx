@@ -42,16 +42,16 @@ const Form = () => {
   }
 
   function handleSubmit(e) {
-    if (checkFields()) {
-      setLoading(true);
-      setTimeout(() => {
-        setLoading(false);
-        setReadyToSend(true);
-      }, 3000);
-    } else {
-      e.preventDefault();
-      setErrorMessage(true);
-    }
+    // if (checkFields()) {
+    //   setLoading(true);
+    //   setTimeout(() => {
+    //     setLoading(false);
+    //     setReadyToSend(true);
+    //   }, 3000);
+    // } else {
+    //   e.preventDefault();
+    //   setErrorMessage(true);
+    // }
   }
 
   function handleBlur({ target }) {
