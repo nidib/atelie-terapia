@@ -19,50 +19,45 @@ const Services = () => {
           <Quote text="O que tentamos encontrar é a relação particular do sujeito com o conhecimento e o significado do aprender." owner="Alicia Fernández" />
         </section>
         <section id="services">
-          <CardOnImage imgSrc="/kid-drawing.jpg" title="Crianças">
+          <CardOnImage imgSrc="/kid-drawing.jpg" title="Atendimento à crianças">
             <div className="text">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime doloribus,
-                nisi exercitationem inventore explicabo accusamus alias magni et cupiditate
-                illo voluptatibus, eaque dolorem necessitatibus omnis
-                dignissimos vero ex dolor culpa.
+                Compreender como o cérebro funciona auxilia no processo de ensino e aprendizagem
+                pois há uma ligação entre o desenvolvimento do cérebro e os estímulos que as
+                pessoas recebem do ambiente no qual estão inseridas. Estes estímulos atuam no
+                funcionamento do cérebro e na formação de sinapses, onde o cérebro reage
+                processando tais informações, sendo capaz de armazená-las.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum culpa beatae
-                recusandae! Distinctio placeat porro eligendi non nobis omnis ut nulla pariatur
-                labore, harum. Eius eum asperiores unde voluptatem quia.
+                Estou aqui para ser um facilitador da aprendizagem prazerosa, orientando e
+                ensinando seu filho a estudar.
               </p>
             </div>
             <Link to="/contato">Reservar</Link>
           </CardOnImage>
-          <CardOnImage imgSrc="/elders-drawing.jpg" title="Idosos">
+          <CardOnImage imgSrc="/elders-drawing.jpg" title="Atendimento à idosos">
             <div className="text">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime doloribus,
-                nisi exercitationem inventore explicabo accusamus alias magni et cupiditate
-                illo voluptatibus, eaque dolorem necessitatibus omnis
-                dignissimos vero ex dolor culpa.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum culpa beatae
-                recusandae! Distinctio placeat porro eligendi non nobis omnis ut nulla pariatur
-                labore, harum. Eius eum asperiores unde voluptatem quia.
+                A intervenção psicopedagógica é bastante positiva para resgatar as perdas
+                ocorridas no processo de envelhecimento em idosos. É preciso continuar
+                estimulando para minimizar essas perdas cognitivas. O atendimento poderá
+                ser na sua residência, caso esteja impossibilitado de ir até o
+                local do consultório.
               </p>
             </div>
             <Link to="/contato">Reservar</Link>
           </CardOnImage>
-          <CardOnImage imgSrc="/candies.jpeg" title="Vícios">
+          <CardOnImage imgSrc="/candies.jpeg" title="Atendimento à crianças com deficiências">
             <div className="text">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime doloribus,
-                nisi exercitationem inventore explicabo accusamus alias magni et cupiditate
-                illo voluptatibus, eaque dolorem necessitatibus omnis
-                dignissimos vero ex dolor culpa.
+                Facilita muito o aprendizado das crianças com deficiências se trabalhamos com
+                materiais mais estruturados e concretos. Aqui no nosso espaço, o objetivo é
+                esse: O prazer de aprender brincando.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum culpa beatae
-                recusandae! Distinctio placeat porro eligendi non nobis omnis ut nulla pariatur
-                labore, harum. Eius eum asperiores unde voluptatem quia.
+                A aprendizagem pode ser mais significativa quando ocorre a interdisciplinaridade,
+                diferentes saberes e conhecimentos, trabalhados de maneira interligada nas diversas
+                áreas e disciplinas de conhecimento.
               </p>
             </div>
             <Link to="/contato">Reservar</Link>
