@@ -72,7 +72,6 @@ const Mails = () => {
               emails.map((email) => {
                 return (
                   <li key={email.id} className="mail">
-                    <button type="button" id={email.id} onClick={handleDelete}>delete</button>
                     <div className="sent-date">
                       <span>Data do envio: </span>
                       {
