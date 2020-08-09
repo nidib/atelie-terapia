@@ -7,6 +7,8 @@ const Seo = ({ title, description }) => {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="author" content="Richard Bidin">
+      <meta name="keywords" content="psicopedagogia, neuropedagogia, andrea bidin, atendimento psicopedagoga, arteterapia, arte-terapia">
     </Helmet>
   );
 };
