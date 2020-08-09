@@ -64,11 +64,9 @@ const Footer = () => {
             <p>Alguns direitos reservados</p>
           </div>
           <div className="created-by">
-            <p>Criado com ♥</p>
+            <p>Desenvolvido por</p>
             <p>
-              Por
-              {' '}
-              <a href="https://richardbidin.com">
+              <a href="https://wa.me/5547984678818">
                 Richard Bidin
               </a>
             </p>

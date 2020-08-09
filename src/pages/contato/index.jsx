@@ -18,7 +18,7 @@ const Contact = () => {
         <section id="quote">
           <Quote text="O verdadeiro sinal de inteligência não é o conhecimento, e sim a imaginação." owner="Albert Einsten" />
         </section>
-        <section id="where-to-find-us">
+        <section id="where-to-find-us" className="container">
           <div className="location">
             <h3>Como nos encontrar:</h3>
             <ul>
@@ -44,7 +44,7 @@ const Contact = () => {
             <p>
               E-mail:
               {' '}
-              <a href="mailto:atendimentoatelieterapia@gmail.com">atelieterapiaandreabidin@gmail.com</a>
+              <a href="mailto:atendimentoatelieterapia@gmail.com">atendimentoatelieterapia@gmail.com</a>
             </p>
           </div>
         </section>

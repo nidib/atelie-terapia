@@ -13,7 +13,7 @@ const Seo = ({ title, description }) => {
 
 Seo.defaultProps = {
   title: 'Ateliê Terapia',
-  description: 'Aqui vai uma descrição bem breve do que seu site tem de informações. Isso aparece no google.',
+  description: 'Ateliê terapia é um espaço onde você poderá participar de oficinas arte terapêuticas em grupo ou atendimentos individuais com a arte terapeuta e psicopedagoga Andréa Bidin, atendendo crianças com deficiências nas dificuldades de aprendizagem e idosos que apresentem comprometimento cognitivo.',
 };
 
 Seo.propTypes = {
