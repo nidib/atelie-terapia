@@ -22,7 +22,7 @@ const Redirect = ({ seoTitle, message, countFrom }) => {
 
   return (
     <>
-      <Seo title={`Ateliê Terapia | ${seoTitle}`} />
+      <Seo title={`Ateliê Terapia | ${seoTitle}`} follow={false} />
       <div id="page-redirect">
         <p>
           {message}
