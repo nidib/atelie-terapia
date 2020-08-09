@@ -12,7 +12,7 @@ const Seo = ({ title, description }) => {
 };
 
 Seo.defaultProps = {
-  title: 'Ateliê Terapia',
+  title: 'Ateliê Terapia | Andréa Bidin',
   description: 'Ateliê terapia é um espaço onde você poderá participar de oficinas arte terapêuticas em grupo ou atendimentos individuais com a arte terapeuta e psicopedagoga Andréa Bidin, atendendo crianças com deficiências nas dificuldades de aprendizagem e idosos que apresentem comprometimento cognitivo.',
 };
 
