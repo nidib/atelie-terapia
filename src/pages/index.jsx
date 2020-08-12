@@ -12,7 +12,7 @@ import './index.scss';
 const Home = () => {
   return (
     <>
-      <Seo />
+      <Seo googleVerify />
       <PageTitle title="Atendimento arteterapêutico, psicopedagógico e neuropsicopedagógico" />
       <main>
         <section id="quote">
