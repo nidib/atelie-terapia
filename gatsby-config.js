@@ -4,9 +4,18 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 module.exports = {
+  siteMetadata: {
+    siteUrl: 'https://www.atelieterapia.com',
+  },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        exclude: ['/inbox', '/success'],
+      },
+    },
     {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
