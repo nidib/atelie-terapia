@@ -57,7 +57,7 @@ const Home = () => {
               Atendimentos individuais e grupos terapêuticos (Arteterapia)
             </li>
             <li>
-              Atendimento domiciliar à aqueles que estão impossibilitados por
+              Atendimento domiciliar àqueles que estão impossibilitados por
               limitações físicas ou clínicas
             </li>
             <li>

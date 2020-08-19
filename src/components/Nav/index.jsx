@@ -23,7 +23,7 @@ const Nav = ({ navActive }) => {
           <a href="http://atelieterapia.com.br/">Arteterapia</a>
         </li>
         <li>
-          <a href="#" className="disabled">Loja (Em breve)</a>
+          <a href="https://www.elo7.com.br/atelieterapiaandreabidin">Loja</a>
         </li>
       </ul>
     </nav>
