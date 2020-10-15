@@ -5,6 +5,7 @@ import './styles.scss';
 const Form = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
@@ -14,6 +15,10 @@ const Form = () => {
 
   function handleEmailChange({ target }) {
     setEmail(target.value);
+  }
+
+  function handlePhoneChange({ target }) {
+    setPhone(target.value);
   }
 
   function handleSubjectChange({ target }) {
@@ -27,14 +32,14 @@ const Form = () => {
   function checkField(field) {
     const fieldElmnt = field;
     if (!field.value) {
-      console.log(fieldElmnt.closest('fieldset').className = 'red');
+      fieldElmnt.closest('fieldset').className = 'red';
     } else {
-      console.log(fieldElmnt.closest('fieldset').className = '');
+      fieldElmnt.closest('fieldset').className = '';
     }
   }
 
   function checkFields() {
-    if (name && email && subject && message) return true;
+    if (name && email && phone && subject && message) return true;
     return false;
   }
 
@@ -64,8 +69,14 @@ const Form = () => {
         </label>
       </fieldset>
       <fieldset>
+        <legend>Phone:</legend>
+        <label htmlFor="phone">
+          <input type="text" id="phone" name="phone" value={phone} onChange={handlePhoneChange} onBlur={handleBlur} required />
+        </label>
+      </fieldset>
+      <fieldset>
         <legend>Assunto:</legend>
-        <select id="subject" name="subject" defaultValue="" onChange={handleSubjectChange} onBlur={handleBlur} required >
+        <select id="subject" name="subject" defaultValue="" onChange={handleSubjectChange} onBlur={handleBlur} required>
           <option value="" disabled>Selecione um atendimento</option>
           <option value="criancas">Atendimento à crianças</option>
           <option value="idosos">Atendimento à idosos</option>

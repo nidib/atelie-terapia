@@ -90,6 +90,10 @@ const Inbox = () => {
                         <span>Email: </span>
                         <a href={`mailto:${email.data.email}`}>{email.data.email}</a>
                       </div>
+                      <div className="phone">
+                        <span>Celular: </span>
+                        {email.data.phone}
+                      </div>
                       <div className="subject">
                         <span>Assunto: #</span>
                         {email.data.subject}
